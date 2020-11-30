@@ -2,6 +2,9 @@ package com.panyexiong.blog.controller;
 
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author panyexiong
+ */
 @RestController
 @RequestMapping("post")
 public class PostController {
