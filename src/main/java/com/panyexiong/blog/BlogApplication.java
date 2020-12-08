@@ -3,6 +3,9 @@ package com.panyexiong.blog;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author panyexiong
+ */
 @SpringBootApplication
 public class BlogApplication {
 

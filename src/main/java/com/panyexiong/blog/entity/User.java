@@ -1,5 +1,6 @@
 package com.panyexiong.blog.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -9,18 +10,14 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
+
 /**
- * <p>
- * 
- * </p>
- *
- * @author 关注公众号：MarkerHub
- * @since 2020-11-01
+ * @author panyexiong
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("m_user")
+@TableName("user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -40,6 +37,7 @@ public class User implements Serializable {
 
     private LocalDateTime created;
 
+    @TableField(value = "lastLogin")
     private LocalDateTime lastLogin;
 
 
