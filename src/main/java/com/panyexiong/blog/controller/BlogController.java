@@ -14,14 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * <p>
- * 前端控制器
- * </p>
- *
- * @author 关注公众号：MarkerHub
- * @since 2020-11-01
- */
+
 @RestController
 @RequestMapping("/blog")
 public class BlogController {
